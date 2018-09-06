@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.2.0/css/all.css" 
+    integrity="sha384-hWVjflwFxL6sNzntih27bfxkr27PmbbK/iSvJ+a4+0owXq79v+lsFkW54bOGbiDQ" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+    <script src="https://code.angularjs.org/1.6.4/angular.min.js"></script>
+    <script src="https://code.angularjs.org/1.6.4/angular-route.min.js"></script>
+    
+    <script src="script.js"></script>
+    
+    <title>Image Editor Application</title>
+</head>
+<body ng-app="myApp" >
+    <div id="window">
+        <div id="frame" ng-controller="frameCtrl">
+            <div class="far" id="close" ng-click="close()"><i class="far fa-window-close"></i></div>
+            <div class="far" id="max" ng-click="max()"><i class="far fa-window-maximize"></i></div>
+            <div class="far" id="min" ng-click="min()"><i class="far fa-window-minimize"></i></div>
+        </div>
+    </div>
+</body>
+</html>
+
+<!-- <!DOCTYPE html class="far">
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.2.0/css/all.css" 
+    integrity="sha384-hWVjflwFxL6sNzntih27bfxkr27PmbbK/iSvJ+a4+0owXq79v+lsFkW54bOGbiDQ" crossorigin="anonymous">
+    <script src="https://code.angularjs.org/1.6.4/angular.min.js"></script>
+    <script src="https://code.angularjs.org/1.6.4/angular-route.min.js"></script>
+    <script src="script.js"></script>
+    <title>Image Editor Application</title>
+</head>
+<body ng-app="myApp">
+    <div id="window">
+        <div id="frame" ng-controller="frameCtrl">
+            <div id="close" ng-click="close()"><i class="far fa-window-close"></i></div>
+            <div id="max" ng-click="max()"><i class="far fa-window-maximize"></i></div>
+            <div id="min" ng-click="min()" ><i class="far fa-window-minimize"></i></div>
+        </div>
+    </div>
+</body>
+</html> -->
+

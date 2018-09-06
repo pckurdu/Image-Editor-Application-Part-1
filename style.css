@@ -1,0 +1,43 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+
+#frame{
+    
+    display: flex;/*horizontal position*/
+    justify-content: flex-start;
+    background-color: #fdcb6e;
+    height: 40px;
+    transition: margin 2s;
+    margin-top: -30px;
+
+}
+
+.far{
+    padding: 3px 5px 5px 5px;
+    font-size: 25px;
+    cursor: pointer;
+    
+}
+
+#frame:hover {
+    height: 40px;
+    margin-top: 0px;
+}
+
+
+#max:hover{
+    background-color: #ffeaa7;
+    color:#d63031;
+}
+#min:hover{
+    background-color: #ffeaa7;
+    color:#d63031;
+}
+
+#close:hover{
+    background-color: #d63031;
+    color:#ffeaa7;
+}
